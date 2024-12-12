@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+      font-family: 'Goudy Old Style';
+      src: url(/fonts/goudos/goudos.ttf) format("ttf");
+    }
+}
+
+h1 {
+    font-family: 'Goudy Old Style';
+}
+
+body {
+    padding: 0.5rem;
+}
+
+.icons {
+    height: 25px;
+    width: 25px;
+}
