@@ -2,10 +2,11 @@ import React from 'react'
 import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
-import Quality from './Quality'
-import FurnitureDisplay from './FurnitureDisplay'
+import Quality from './components/Quality'
+import FurnitureDisplay from './components/FurnitureDisplay'
 import Manufacture from './components/Manufacture'
 import Crafted from './components/Crafted'
+import Footer from './components/Footer'
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
         <FurnitureDisplay />
         <Manufacture />
         <Crafted />
+        <Footer />
       </div>
     </div>
   )

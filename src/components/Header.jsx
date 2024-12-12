@@ -8,7 +8,7 @@ export default function Header() {
   return (
     <nav className='flex justify-between p-5 items-center'>
         <RiMenu4Line className='icons' />
-        <h1 className='font-sans text-3xl'>kayujati</h1>
+        <h1 className='font-goudy font-bold text-3xl'>kayujati</h1>
 
         <div className='flex gap-5'>
             <FiSearch className='icons'/>

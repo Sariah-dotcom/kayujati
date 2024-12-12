@@ -9,11 +9,11 @@ export default {
     colors: {
       'white': '#fff',
       'black':'#000',
-      'grey': '#d4d4d4'
+      'grey': '#979797'
     },
     extend: {
       fontFamily:{
-        ledger: ['Ledger', 'serif'],
+        goudy: ['Goudy Old Style', 'serif'],
         sans: ['DM Sans', 'sans-serif'],
       },
     },

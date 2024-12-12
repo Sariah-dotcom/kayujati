@@ -27,8 +27,21 @@ export default function Carousel() {
                 furnitureName='Airie Couch'
                 category='Couches and Arm Rests'
             />
+
+            <CarouselCard 
+                number='03'
+                furnitureImg='/furniture/couch.jpg'
+                furnitureName='Airie Couch'
+                category='Couches and Arm Rests'
+            />
+
+            <CarouselCard 
+                number='03'
+                furnitureImg='/furniture/couch.jpg'
+                furnitureName='Airie Couch'
+                category='Couches and Arm Rests'
+            />
         </div>
-      
     </div>
   );
 }

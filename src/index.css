@@ -21,3 +21,8 @@ body {
     height: 25px;
     width: 25px;
 }
+
+footer p {
+    font-size: 0.8rem;
+    color: #979797;
+}

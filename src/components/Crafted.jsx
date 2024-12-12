@@ -9,10 +9,10 @@ export default function Crafted() {
         alt="minimal furniture"
       />
 
-      <div className='absolute text-white text-right flex flex-col gap-5 w-full px-10'>
-        <h2 className='text-8xl'>Crafted Just <br /> For You</h2>
-        <p>We understand that you want the perfect <br /> furniture to fit you and your home, that is why we <br /> offer customized order service. </p>
-        <button></button>
+      <div className='absolute text-white text-right flex flex-col gap-5 w-full p-10 lg:p-20'>
+        <h2 className='text-6xl lg:text-8xl uppercase'>Crafted Just <br /> For You</h2>
+        <p className='text-sm pl-20 mb-5'>We understand that you want the perfect <br /> furniture to fit you and your home, that is why we <br /> offer customized order service. </p>
+        <button className='border py-2 px-4 rounded-full w-52 absolute bottom-0 right-10 lg:bottom-5 lg:right-20'>Customize Your Order</button>
       </div>
 
       

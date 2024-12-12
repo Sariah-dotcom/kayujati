@@ -8,7 +8,7 @@ export default function Stat(props) {
         <p className='text-xl font-bold'>{props.unit}</p>
       </div>
       <div>
-        <p className='text-xs text-center text-grey'>{props.description}</p>
+        <p className='text-xs text-center text-grey lg:text-sm'>{props.description}</p>
       </div>
     </div>
   )
