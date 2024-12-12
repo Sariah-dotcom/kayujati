@@ -5,7 +5,7 @@ export default function Hero() {
     <div className="relative w-full h-[85vh] overflow-hidden">
       <img
         className="absolute inset-0 w-full h-full object-cover rounded-[1.5rem]"
-        src="/hero-img.jpg"
+        src="/hero-img-3.jpg"
         alt="minimal furniture"
       />
 
