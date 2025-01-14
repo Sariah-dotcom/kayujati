@@ -6,15 +6,16 @@ import { IoPersonOutline } from "react-icons/io5";
 
 export default function Header() {
   return (
-    <nav className='flex justify-between p-5 items-center'>
-        <RiMenu4Line className='icons' />
-        <h1 className='font-goudy font-bold text-3xl'>kayujati</h1>
+    <nav className='flex justify-between py-5 px-3 items-center lg:p-5'>
+      <RiMenu4Line className='icons' />
+      
+      <h1 className='font-goudy font-bold text-3xl'>kayujati</h1>
 
-        <div className='flex gap-5'>
-            <FiSearch className='icons'/>
-            <BsHandbag className='icons' />
-            <IoPersonOutline className='icons' />
-        </div>
+      <div className='flex gap-5'>
+        <FiSearch className='icons'/>
+        <BsHandbag className='icons' />
+        <IoPersonOutline className='icons' />
+      </div>
     </nav>
   )
 }
